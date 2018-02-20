@@ -62,7 +62,7 @@ When the user submits, a request is sent to the server that extracts the entity.
 
 The entity returned is displayed.
 
-## GOING INTO THE APi
+## GOING INTO THE API
 
 This is entity extraction api using wit.ai api.
 
