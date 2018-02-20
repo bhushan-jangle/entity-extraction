@@ -84,7 +84,7 @@ class App extends Component {
                     onClick={this.handleExtract}
                     color="primary"
                     style={{ fontWeight: "bold", boxShadow: "none", padding: "2px 1rem" }}
-                    variant="raised">Exteract<Icon style={{ marginLeft: "5px" }}>send</Icon></Button>
+                    variant="raised">Extract<Icon style={{ marginLeft: "5px" }}>send</Icon></Button>
                 </Grid>
               </Grid>
             </div>
