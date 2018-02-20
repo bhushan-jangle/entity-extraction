@@ -1,6 +1,6 @@
 # entity-extraction
 
-# Entity Extraction using React Native and Wit.ai api
+# Entity Extraction using React Js and Wit.ai api
 
 ## Requirements
 
