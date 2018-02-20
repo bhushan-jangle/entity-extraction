@@ -53,7 +53,30 @@ b) Now, you can simply start the application by running this command
 
     $ node
     
-    
+
+# Wit Node.js SDK [![npm](https://img.shields.io/npm/v/node-wit.svg)](https://www.npmjs.com/package/node-wit)
+
+`node-wit` is the Node.js SDK for [Wit.ai](https://wit.ai).
+
+## Install
+
+In your Node.js project, run:
+
+```bash
+npm install --save node-wit
+```
+
+## Quickstart
+
+Run in your terminal:
+
+```bash
+# Node.js <= 6.x.x, add the flag --harmony_destructuring
+node --harmony_destructuring examples/basic.js <MY_TOKEN>
+# Node.js >= v6.x.x
+node examples/basic.js <MY_TOKEN>
+```
+
  ## GOING INTO THE APP
 To make skeletal inregration with wit.ai and develop a custom service that extract an entity from a user input and display it.
 
@@ -79,15 +102,16 @@ A sample JSON response:
 },
 "msg_id":"0j9wx9aPHuFulwE7E"}
 ```
-We need to return value of value of inside message (that is inside entities; course_free is the name of the entity) as response.
+We need to return value of value of inside message (that is inside entities;) as response.
 
-## Web App-Node JS SubGroup
+## Web App-Node JS 
 
-A form is created where where the user can either enter an input or choose from the predefined statements available as a drop down.
+A form is created where where the user can either select or enter any value to find entitys in it.
 
-When the user submits, a request is sent to the server that extracts the entity. The extracted entity returned is displayed.
+When the user extract, a request is sent to the server that extracts the entity. The extracted entity returned is displayed.
 
 The entity returned is displayed.
+
 
 ## GOING INTO THE API
 
