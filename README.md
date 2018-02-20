@@ -18,7 +18,7 @@ Go to https://nodejs.org/en/
 Select the button to download the LTS build that is "Recommended for most users".
 Install Node by double-clicking on the downloaded file and following the installation prompts.
 
-Ubuntu 16.04
+## Ubuntu 16.04
 
 The easiest way to install the most recent LTS version of Node 6.x is to use the package manager to get it from the Ubuntu binary distributions repository. This can be done very simply by running the following two commands on your terminal:
 
@@ -28,7 +28,7 @@ The easiest way to install the most recent LTS version of Node 6.x is to use the
 
 Warning: Don't install directly from the normal Ubuntu repositories because they contain very old versions of node.
 
-##Testing your Nodejs and NPM installation
+## Testing your Nodejs and NPM installation
 
 The easiest way to test that node is installed is to run the "version" command in your terminal/command prompt and check that a version string is returned:
 
