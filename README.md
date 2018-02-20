@@ -4,19 +4,44 @@
 ## Requirements
 
 For development, you will only need Node.js installed on your environement.
-And please use the appropriate [Editorconfig](http://editorconfig.org/) plugin for your Editor (not mandatory).
 
-## Node
+## Installing Node
 
-[Node](http://nodejs.org/) is really easy to install & now include [NPM](https://npmjs.org/).
-You should be able to run the following command after the installation procedure
-below.
+In order to use Express you will first have to install Nodejs and the Node Package Manager (NPM) on your operating system. The following sections explain the easiest way to install the Long Term Supported (LTS) version of Nodejs on Ubuntu Linux 16.04, macOS, and Windows 10.
 
-    $ node --version
-    v0.10.24
+## Windows and macOS
 
-    $ npm --version
-    1.3.21
+Installing Node and NPM on Windows and macOS is straightforward because you can just use the provided installer:
+
+Download the required installer:
+Go to https://nodejs.org/en/
+Select the button to download the LTS build that is "Recommended for most users".
+Install Node by double-clicking on the downloaded file and following the installation prompts.
+
+Ubuntu 16.04
+
+The easiest way to install the most recent LTS version of Node 6.x is to use the package manager to get it from the Ubuntu binary distributions repository. This can be done very simply by running the following two commands on your terminal:
+
+
+    curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+    sudo apt-get install -y nodejs
+
+Warning: Don't install directly from the normal Ubuntu repositories because they contain very old versions of node.
+
+##Testing your Nodejs and NPM installation
+
+The easiest way to test that node is installed is to run the "version" command in your terminal/command prompt and check that a version string is returned:
+
+    >node -v
+    v8.9.4
+
+
+The Nodejs package manager NPM should also have been installed, and can be tested in the same way:
+
+
+    >npm -v
+    5.6.0
+
 
 ## Installation
 
@@ -27,6 +52,8 @@ a) First, you are required to run NPM inside this project which can be achieved 
 b) Now, you can simply start the application by running this command 
 
     $ node
+    
+    
  ## GOING INTO THE APP
 To make skeletal inregration with wit.ai and develop a custom service that extract an entity from a user input and display it.
 
