@@ -124,3 +124,8 @@ https://api.boxing25.hasura-app.io/api
 This is entity extraction app using react js wit.ai api.
 
 https://ui.boxing25.hasura-app.io/
+
+## Support
+
+In case of any bugs, issues or feature requests, feel free to raise an issue. We will try to work on it as soon as possible.
+
