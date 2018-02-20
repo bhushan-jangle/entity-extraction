@@ -61,8 +61,14 @@ When the user submits, a request is sent to the server that extracts the entity.
 
 The entity returned is displayed.
 
+## GOING INTO THE APi
+
+This is entity extraction api using wit.ai api.
+
+https://api.boxing25.hasura-app.io/api
+
 ## GOING INTO THE APP
 
-This is entity extraction app using wit.ai api.
+This is entity extraction app using react js wit.ai api.
 
 https://ui.boxing25.hasura-app.io/
