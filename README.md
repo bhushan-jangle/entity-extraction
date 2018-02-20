@@ -42,11 +42,12 @@ A sample JSON response:
 ```{
 "_text":"what are the list of available free course",
 "entities":{
-"course_free":[
+"message":[
 {
-"confidence":0.96050954517973,"value":
-"list of available free course","type":
-"value"}
+"confidence":0.96050954517973,
+"value":"list of available free course",
+"type":"value"
+}
 ]
 },
 "msg_id":"0j9wx9aPHuFulwE7E"}
