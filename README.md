@@ -65,4 +65,4 @@ The entity returned is displayed.
 
 This is entity extraction app using wit.ai api.
 
-https://api.boxing25.hasura-app.io/
+https://ui.boxing25.hasura-app.io/
