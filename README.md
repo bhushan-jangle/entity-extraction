@@ -284,7 +284,7 @@ See the response.
 # Contributor
 
 - Amal Chandran. React.js [Github Profile](https://github.com/adevofficial)
-- Sredhar S. React.js [Github Profile]()
+- Sredhar S. React.js [Github Profile](https://github.com/sreedharssuresh)
 - Bhushan Jangle. Nodejs-Express [Github Profile](https://github.com/waffwaff1)
 
 If there is any bug in the project, please feel free to comment below. If any error occurs while cloning and deploying, then contact me through mail at [bhushanajangle@gmail.com](https://mail.google.com/mail/u/0/#inbox)
