@@ -2,6 +2,8 @@
 # Wit.ai Integration 
 Wit.ai is a natural language processing tool which allows developers to create applications that can interact with users through text or speech. It is completely open source and free to use, visit the [website](https://wit.ai/) to know more.
 
+To see a working model visit this link https://ui.boxing25.hasura-app.io/
+
 ## Create Wit.ai application
 - Visit the Wit.ai homepage.
 - Login to use the dashboard.
